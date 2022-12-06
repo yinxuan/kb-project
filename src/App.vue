@@ -14,8 +14,8 @@ export default {
 
 <style>
 #app {
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh;
+  overflow: hidden; */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -442,7 +442,7 @@ export default {
   .title {
     font-size: 36px;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 10px 0;
     font-weight: 600;
     color: #2B9DF5;
     font-family: cursive;
@@ -457,8 +457,8 @@ export default {
         padding-top: 1px;
 
         .element {
-          width: 24px;
-          height: 24px;
+          width: 22px;
+          height: 22px;
           padding: 0;
           margin: 0 1px 0 0;
         }
@@ -501,7 +501,7 @@ export default {
   }
 
   .control {
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
     .zy {
