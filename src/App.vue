@@ -14,6 +14,14 @@ export default {
 
 <style>
 #app {
-  
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>

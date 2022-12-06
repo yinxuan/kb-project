@@ -1,5 +1,6 @@
 <template>
   <div class="game">
+    <div class='title'>Tetris</div>
     <div class="game-div">
       <div class="game-min">
         <div class="row" v-for="(row, i) in frame" :key="i">
@@ -25,17 +26,27 @@
           <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       times                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
         </div>
         <div class="play" @click="stopGame()">
-          开始
+          {{ stop ? '开始' : '暂停'}}
         </div>
       </div>
     </div>
     <div class="control">
-      <div class="change bt" @click="change1()">变化</div>
-      <div class="zy">
-        <div class="left bt" @click="moveLeft()">向左</div>
-        <div class="right bt" @click="moveRight()">向右</div>
+      <div class="change" @click="change1()">
+        <img src='../assets/svg/steering-wheel.svg' width='100' height='100' />
       </div>
-      <div class="down bt" @click="moveDown()">向下</div>
+      <div>
+        <div class="zy">
+          <div class="left" @click="moveLeft()">
+            <img src='../assets/svg/arrow-circle-left.svg' width='60' height='60' />
+          </div>
+          <div class="right" @click="moveRight()">
+            <img src='../assets/svg/arrow-circle-right.svg' width='60' height='60' />
+          </div>
+        </div>
+        <div class="down" @click="moveDown()">
+          <img src='../assets/svg/arrow-circle-down.svg' width='60' height='60' />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -428,6 +439,14 @@ export default {
 
 <style lang="less" scoped>
 .game {
+  .title {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 600;
+    color: #2B9DF5;
+    font-family: cursive;
+  }
   .game-div {
     display: flex;
 
@@ -438,8 +457,8 @@ export default {
         padding-top: 1px;
 
         .element {
-          width: 20px;
-          height: 20px;
+          width: 24px;
+          height: 24px;
           padding: 0;
           margin: 0 1px 0 0;
         }
@@ -455,8 +474,8 @@ export default {
           padding-top: 1px;
 
           .element {
-            width: 16px;
-            height: 16px;
+            width: 20px;
+            height: 20px;
             padding: 0;
             margin: 0 1px 0 0;
           }
@@ -470,35 +489,30 @@ export default {
       }
 
       .play {
-        width: 56px;
+        width: 70px;
         height: 32px;
-        background: #bbb;
+        background: linear-gradient(180deg, #FFED48 0%, #FD9E16 100%);
         text-align: center;
         line-height: 32px;
+        border-radius: 8px;
+        color: white;
       }
     }
   }
 
   .control {
-    padding-top: 12px;
-
-    .bt {
-      height: 36px;
-      background: #aaa;
-      width: 94px;
-      margin: 6px;
-      text-align: center;
-      line-height: 36px;
-      color: #fff;
-    }
-
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
     .zy {
       display: flex;
+      .left {
+        padding-right: 40px;
+      }
     }
 
-    .change,
     .down {
-      width: 200px;
+      text-align: center;
     }
   }
 }
