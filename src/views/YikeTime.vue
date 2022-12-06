@@ -32,19 +32,19 @@
     </div>
     <div class="control">
       <div class="change" @click="change1()">
-        <img src='../assets/svg/steering-wheel.svg' width='100' height='100' />
+        <img src='../assets/svg/direction.svg' width='100' height='100' />
       </div>
       <div>
         <div class="zy">
           <div class="left" @click="moveLeft()">
-            <img src='../assets/svg/arrow-circle-left.svg' width='60' height='60' />
+            <img src='../assets/svg/left-c.svg' width='60' height='60' />
           </div>
           <div class="right" @click="moveRight()">
-            <img src='../assets/svg/arrow-circle-right.svg' width='60' height='60' />
+            <img src='../assets/svg/right-c.svg' width='60' height='60' />
           </div>
         </div>
         <div class="down" @click="moveDown()">
-          <img src='../assets/svg/arrow-circle-down.svg' width='60' height='60' />
+          <img src='../assets/svg/down-c.svg' width='60' height='60' />
         </div>
       </div>
     </div>
@@ -501,9 +501,10 @@ export default {
   }
 
   .control {
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     .zy {
       display: flex;
       .left {
