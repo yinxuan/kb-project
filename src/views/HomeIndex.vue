@@ -65,12 +65,12 @@ export default {
       icon: require('../assets/svg/home/qidai.svg'),
       list: [
         {
-          img: 'http://www.huohuo90.com/download/166808869198310.png',
+          img: require('../assets/png/home/img.png'),
           name: '俄罗斯方块游戏',
           url: '/tetris'
         },
         {
-          img: 'http://www.huohuo90.com/download/166953780941695.png',
+          img: require('../assets/png/home/img_1.png'),
           name: '贪吃蛇小游戏',
           url: ''
         },
