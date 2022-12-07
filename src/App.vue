@@ -16,9 +16,6 @@ export default {
 #app {
   /* height: 100vh;
   overflow: hidden; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 body {
   margin: 0;

@@ -1,59 +1,59 @@
 <template>
-  <div class="game">
-    <div class='title'>Tetris</div>
-    <div class="game-div">
-      <div class="game-min">
-        <div class="row" v-for="(row, i) in frame" :key="i">
-          <p class="element" v-for="(col, j) in row" :key="j" :style="{ background: col.bg }"></p>
-        </div>
-      </div>
-      <div class="right-div">
-        <div class="ass">
-          <div class="row" v-for="(row, i) in ass" :key="i">
+  <div class='tetris'>
+    <div class="game">
+      <div class='title'>Tetris</div>
+      <div class="game-div">
+        <div class="game-min">
+          <div class="row" v-for="(row, i) in frame" :key="i">
             <p class="element" v-for="(col, j) in row" :key="j" :style="{ background: col.bg }"></p>
           </div>
         </div>
-        <div>
-          <p>得分</p>
-          <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       score                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
-        </div>
-        <div>
-          <p>等级</p>
-          <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       level                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
-        </div>
-        <div>
-          <p>消除</p>
-          <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       times                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
-        </div>
-        <div class="play" @click="stopGame()">
-          {{ stop ? '开始' : '暂停'}}
-        </div>
-      </div>
-    </div>
-    <div class="control">
-      <div class="change" @click="change1()">
-        <img src='../assets/svg/direction.svg' width='100' height='100' />
-      </div>
-      <div>
-        <div class="zy">
-          <div class="left" @click="moveLeft()">
-            <img src='../assets/svg/left-c.svg' width='60' height='60' />
+        <div class="right-div">
+          <div class="ass">
+            <div class="row" v-for="(row, i) in ass" :key="i">
+              <p class="element" v-for="(col, j) in row" :key="j" :style="{ background: col.bg }"></p>
+            </div>
           </div>
-          <div class="right" @click="moveRight()">
-            <img src='../assets/svg/right-c.svg' width='60' height='60' />
+          <div>
+            <p>得分</p>
+            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       score                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+          </div>
+          <div>
+            <p>等级</p>
+            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       level                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+          </div>
+          <div>
+            <p>消除</p>
+            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       times                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+          </div>
+          <div class="play" @click="stopGame()">
+            {{ stop ? '开始' : '暂停'}}
           </div>
         </div>
-        <div class="down" @click="moveDown()">
-          <img src='../assets/svg/down-c.svg' width='60' height='60' />
+      </div>
+      <div class="control">
+        <div class="change" @click="change1()">
+          <img src='../../assets/svg/direction.svg' width='100' height='100' />
+        </div>
+        <div>
+          <div class="zy">
+            <div class="left" @click="moveLeft()">
+              <img src='../../assets/svg/left-c.svg' width='60' height='60' />
+            </div>
+            <div class="right" @click="moveRight()">
+              <img src='../../assets/svg/right-c.svg' width='60' height='60' />
+            </div>
+          </div>
+          <div class="down" @click="moveDown()">
+            <img src='../../assets/svg/down-c.svg' width='60' height='60' />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-
 import { color, blockMod, transition } from "@/utils/ykdata"
-
 export default {
   data() {
     return {
@@ -438,82 +438,86 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.game {
-  .title {
-    font-size: 36px;
-    text-align: center;
-    padding: 10px 0;
-    font-weight: 600;
-    color: #2B9DF5;
-    font-family: cursive;
-  }
-  .game-div {
-    display: flex;
-
-    .game-min {
-
-      .row {
-        display: flex;
-        padding-top: 1px;
-
-        .element {
-          width: 22px;
-          height: 22px;
-          padding: 0;
-          margin: 0 1px 0 0;
-        }
-      }
+.tetris {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .game {
+    .title {
+      font-size: 36px;
+      text-align: center;
+      padding: 10px 0;
+      font-weight: 600;
+      color: #2B9DF5;
+      font-family: cursive;
     }
+    .game-div {
+      display: flex;
 
-    .right-div {
-      padding-left: 12px;
+      .game-min {
 
-      .ass {
         .row {
           display: flex;
           padding-top: 1px;
 
           .element {
-            width: 20px;
-            height: 20px;
+            width: 22px;
+            height: 22px;
             padding: 0;
             margin: 0 1px 0 0;
           }
         }
       }
 
-      .data {
-        font-weight: 700;
-        font-size: 16px;
-        color: #00aaee;
-      }
+      .right-div {
+        padding-left: 12px;
 
-      .play {
-        width: 70px;
-        height: 32px;
-        background: linear-gradient(180deg, #FFED48 0%, #FD9E16 100%);
-        text-align: center;
-        line-height: 32px;
-        border-radius: 8px;
-        color: white;
+        .ass {
+          .row {
+            display: flex;
+            padding-top: 1px;
+
+            .element {
+              width: 20px;
+              height: 20px;
+              padding: 0;
+              margin: 0 1px 0 0;
+            }
+          }
+        }
+
+        .data {
+          font-weight: 700;
+          font-size: 16px;
+          color: #00aaee;
+        }
+
+        .play {
+          width: 70px;
+          height: 32px;
+          background: linear-gradient(180deg, #FFED48 0%, #FD9E16 100%);
+          text-align: center;
+          line-height: 32px;
+          border-radius: 8px;
+          color: white;
+        }
       }
     }
-  }
-
-  .control {
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .zy {
+    .control {
+      padding-top: 20px;
       display: flex;
-      .left {
-        padding-right: 40px;
+      justify-content: space-around;
+      align-items: center;
+      .zy {
+        display: flex;
+        .left {
+          padding-right: 40px;
+        }
       }
-    }
 
-    .down {
-      text-align: center;
+      .down {
+        text-align: center;
+      }
     }
   }
 }

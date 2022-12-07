@@ -1,4 +1,5 @@
 import {createRouter,createWebHashHistory} from 'vue-router';
+import TetrisIndex from '../views/tetris/TetrisIndex'
 
 /* 引入页面 */
 
@@ -7,7 +8,19 @@ const routes = [
         path:'/',
         name:'one',
         // redirect:'',
-        component: () => import('../views/YikeTime'),
+        component: () => import('../views/HomeIndex'),
+        children:[
+            {
+                path: '/demo',
+                name: 'tetris',
+                component: TetrisIndex,
+            }
+        ]
+    },
+    {
+        path: '/tetris',
+        name: 'tetris',
+        component: TetrisIndex, 
     }
    
 ];
