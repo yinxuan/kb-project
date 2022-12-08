@@ -59,6 +59,8 @@
 
 <script>
 import { showToast } from 'vant';
+import { apiQueryCards } from "@/apis/lushi";
+
 export default {
   data() {
     return {
@@ -89,6 +91,24 @@ export default {
       }
       this.$router.push('/tetris');
     }
+  },
+  mounted() {
+    apiQueryCards(
+        '/api/action/cards/query',
+        {
+          cardClass: 'druid',
+          cost: '',
+          keywords: '',
+          standard: 1,
+          t: new Date().getTime(),
+          cardSet: '',
+          p: 1
+        },
+    ).then(res => {
+      console.log(res)
+    }).catch(err => {
+      console.log(err)
+    })
   }
 }
 </script>
