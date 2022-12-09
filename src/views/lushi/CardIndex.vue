@@ -18,9 +18,30 @@
         <n-image
             width="180"
             lazy
+            preview-disabled
             :src='item.imageUrl'
             :show-toolbar="false"
-        />
+        >
+          <template #placeholder>
+            <div
+                style="
+            width: 180px;
+            height: 248px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+            >
+              <n-image
+                  class="img"
+                  preview-disabled
+                  width="50"
+                  height="50"
+                  :src="require('../../assets/svg/card/loading.svg')"
+              />
+            </div>
+          </template>
+        </n-image>
       </div>
     </div>
 
@@ -182,6 +203,18 @@ export default {
     padding: 10px !important;
     margin: 0 2px;
     border-radius: 10px !important;
+  }
+  .img{
+    //animation: jumpBoxHandler  2s infinite;
+    animation: rotation 2s linear infinite;
+  }
+  @keyframes rotation {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
   }
 }
 </style>

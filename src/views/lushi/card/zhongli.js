@@ -20,11 +20,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,冰封王座,普通,野兽,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/6dd7cdba66eb2b72dc5df0b40c9c46ab005eba49ee08ff3a05fdc1707fcb29f9.png",
-        "description": "",
-        "legacyKeywords": "中立,探险者协会,普通,随从,鱼人"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/53565d75ae45d27b290fab40a720ec2dc5d1c0a43e8a08d3b34318e1f93a1888.png",
         "description": "",
         "legacyKeywords": "中立,普通,核心,随从,鱼人"
@@ -33,11 +28,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/84731868771cb33fbf2993d3759e6dd0d7fc5e475bf85bb90f73f7471ad591c2.png",
         "description": "<b>亡语：</b>为每个英雄恢复 4点生命值。",
         "legacyKeywords": "中立,亡灵,亡语,普通,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/8080f8c36e99d1ec1fb702f8d7a8e3b69825ecd9d967fb027e07d6053d4d3695.png",
-        "description": "<b>亡语：</b>为每个英雄恢复 4点生命值。",
-        "legacyKeywords": "中立,亡灵,亡语,加基森,普通,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f931f36ab39650514be66e3706b62b7b2ab40839bf9f7c208c2b67f1d4b5c0af.png",
@@ -115,11 +105,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/0134449979e64c679c3d7d5aaf787c066fe8898ef823f08e7883347034f79f66.png",
-        "description": "<b>战吼：</b>在本回合中，使一个随从获得+2攻击力。",
-        "legacyKeywords": "中立,战吼,普通,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/6b0532f86c748100a2a7f8f08786221bc6ceee969208c2e3a49b76bc23526804.png",
         "description": "<b>战吼：</b>使一个友方机械获得+1/+1。",
         "legacyKeywords": "中立,战吼,普通,机械,砰砰计划,随从"
@@ -163,11 +148,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/212aee679ffee3fdb3113a058dbb40f8b601d79b6926ff53bd86c171b2ff088e.png",
         "description": "<b>战吼：</b> 你的下一个英雄技能的法力值消耗为（0）点。",
         "legacyKeywords": "中立,战吼,普通,通灵学园,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/76192f50ef5b88e7ac49b94e9974a77d917bb9a19922cccdf7aeeaeb715f8279.png",
-        "description": "<b>战吼：</b> 恢复 2点生命值。",
-        "legacyKeywords": "中立,免费,怀旧,战吼,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/bcfe5134c091946484896b631d56566fe0a18b4eefe270ff20bc8233c790f907.png",
@@ -248,11 +228,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/be4ddc5f5b643bc94780dfc01fe2d2ed85399e368b8ad34809d77a19b0de3716.png",
         "description": "<b>战吼：</b>使一个友方随从获得+2生命值。",
         "legacyKeywords": "中立,战吼,普通,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/452bd49375541cb32fbb08222839f01de13fd911d5d799f22ccbeada7dccde44.png",
-        "description": "<b>战吼：</b>使一个友方随从获得+2生命值。",
-        "legacyKeywords": "中立,奥丹姆,战吼,普通,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/fcb547502f0cdb7c80d4ca0d339902b98e03450a240f083164162dec5e4b78d7.png",
@@ -355,11 +330,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,核心,潜行,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/243d14f53768ef565c2b521c5c71e5eb424ba36172e1541bf19427dc0a4e2a18.png",
-        "description": "<b>潜行</b>",
-        "legacyKeywords": "中立,普通,潜行,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c693af755fb818aadb15ba9e041ca5aed38104d7134b18dafbef1003d7ebd3af.png",
         "description": "<b>战吼：</b>对一个随从造成1点伤害。<b>法术迸发：</b>将本随从移回你的 手牌。",
         "legacyKeywords": "中立,战吼,普通,法术迸发,通灵学园,随从"
@@ -438,11 +408,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c80149143e38a28b1c11cbd80756be0c8229e0d604960bd5a217941ccc9b5908.png",
         "description": "<b>亡语：</b>在本局对战中如果有7只你的艾尔文野猪死亡，装备一把15/3的锯齿符文剑。 <i>（ /7）</i>",
         "legacyKeywords": "中立,亡语,史诗,暴风城下的集结,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/9fab8ae331003fb47c4eaa3dd3dae78db099559a93fe895217b19945029ca5af.png",
-        "description": "<b>战吼：发现</b>一个新的基础英雄技能。",
-        "legacyKeywords": "中立,传说,发现,战吼,核心,随从,鱼人"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/68ab2e3654fba5fb8c6f01c50aac9f974f8362816fab2f0011b8446ec8ddd4dc.png",
@@ -543,11 +508,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/749076e07ea5a1b76d155658ae4c96b217706f35330f6daef5fb9644a724d628.png",
         "description": "每当你召唤一个鱼人，便获得 +1攻击力。",
         "legacyKeywords": "中立,核心,稀有,随从,鱼人"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/bff3f05a9f1e131f444d3778ac5f0f4a94e74cd861e9722122e76e95936a8c3b.png",
-        "description": "每当你召唤一个鱼人，便获得 +1攻击力。",
-        "legacyKeywords": "中立,稀有,随从,鱼人"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/6f7b278d64fd13b1bd3656a6a62d4d1b16b0bb0a31e31df043dad56fa7f678a9.png",
@@ -690,11 +650,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,暴风城下的集结,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ecf65106f1028b8db03abc7480ac895cc1a09463bf5fe4f80c991944ff706718.png",
-        "description": "<b>嘲讽，战吼：</b>对该随从造成3点伤害。",
-        "legacyKeywords": "中立,嘲讽,战吼,普通,核心,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/fb1fb64b83c39c17502bfab2a5b610e51fc060899f262b2b7ae3702562dd0c60.png",
         "description": "<b>嘲讽，战吼：</b>对该随从造成3点伤害。",
         "legacyKeywords": "中立,嘲讽,奥丹姆,战吼,普通,随从"
@@ -708,11 +663,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/13ec60c427fc122ca2658f6453d2bd27853d9c8c8763a8e54397c6685bb117e8.png",
         "description": "<b>嘲讽，圣盾</b>",
         "legacyKeywords": "中立,嘲讽,圣盾,地精大战侏儒,普通,机械,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/cc168932c23e9866790040458caad7f832ab097af15675ea10933661dcce9eab.png",
-        "description": "<b>嘲讽</b> <b>圣盾</b>",
-        "legacyKeywords": "中立,嘲讽,圣盾,普通,机械,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/49c4390d6cc77a98c30530447c24adaf88c7c40912ce1368f4a13031d619b0fe.png",
@@ -738,11 +688,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/fc438165b81a8fbb2b1d4d5e9b8bf10480ca1fb8355977adc45b917ca7b70f6f.png",
         "description": "<b>战吼：</b>如果你控制一个<b>奥秘</b>，便获得+1/+1。",
         "legacyKeywords": "中立,奥秘,战吼,普通,暗影崛起,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/46ea15278370cc42f9b25d60310346d03c1a57d641d2267e5af996aed21a0112.png",
-        "description": "<b>战吼：</b>如果你控制一个<b>奥秘</b>，便获得+1/+1。",
-        "legacyKeywords": "中立,奥秘,战吼,普通,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e503d4feb2f7d53b879341f903510153abd459f536f34439de80e9cde6f172c4.png",
@@ -820,11 +765,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f3e82eebe2537ca20beba1620266c2ff82bfc0cccb2f910f33b33b8b68e1725d.png",
-        "description": "<b>战吼：</b>使一个友方随从从战场上移回你的手牌。",
-        "legacyKeywords": "中立,战吼,普通,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c08179ed972cab43d413996e934ffad67f555ea0f65720374d81b67648362a95.png",
         "description": "每当你抽到一张牌时，随机将其变形成为一张<b>传说</b>随从牌。",
         "legacyKeywords": "中立,史诗,巨龙降临,随从"
@@ -875,11 +815,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,核心,野兽,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e52d2f8122f7c3ce28771a1bd4e4a49739b42b2c2b07f774e75dfdb00e5d59d4.png",
-        "description": "相邻的随从获得+1攻击力。",
-        "legacyKeywords": "中立,普通,野兽,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/d4085ba8fcd4467430f1f99746ebb7df75368b27ffa08c914090a7637fc9eb4c.png",
         "description": "<b>战吼：</b>选择一个友方随从，将一个复制洗入你的牌库。",
         "legacyKeywords": "中立,亡灵,史诗,女巫森林,战吼,随从"
@@ -888,11 +823,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/b0abeca7f8f46e288da7cc379347c71458a03a73b504f7b29b7884796422e677.png",
         "description": "<b>亡语：</b>抽一张牌。",
         "legacyKeywords": "中立,亡语,普通,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/581b0e16bb341ea1bea27adccc0b87bb1100d2d2eb14e0e458e51fcd7cb64fde.png",
-        "description": "<b>亡语：</b>抽一张牌。",
-        "legacyKeywords": "中立,亡语,普通,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/70512d83f60a10357a22a15cdd0337be4c03a37e499b49958686cf4278733ac1.png",
@@ -953,11 +883,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/373a250001b918a06cca2d8cdfde1e21d2deb7967d9fd2a20dc770c9e09c6310.png",
         "description": "在你的回合开始时，消灭所有随从。",
         "legacyKeywords": "中立,史诗,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/cac5f68813004f75c431032b7d68287a292897627ee93edb36ec6f474a035d4e.png",
-        "description": "在你的回合开始时，消灭所有随从。",
-        "legacyKeywords": "中立,史诗,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/612fe4362add17901b3c3f587c01cce398cdb8623de17acfa0c85b502488b33b.png",
@@ -1100,19 +1025,9 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,亡灵,核心,稀有,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/987a143c2cf94d5d5daa5e92cb5536dbea89192765bca2d4e8cf1e7aa1d5d7e0.png",
-        "description": "在你施放一个法术后，对所有随从造成1点伤害。",
-        "legacyKeywords": "中立,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/89ec2730fd0278cca9c86f597de8218bf445c2c630e9e2026b287feb3b01e8ca.png",
         "description": "<b>嘲讽</b>，<b>战吼：</b>如果你的手牌中有自然法术牌，便获得+2 生命值。",
         "legacyKeywords": "中立,嘲讽,战吼,普通,贫瘠之地,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/84f1f85398557a9114a61ea18940969c0867b276cc90d52d29f450cebc1641cf.png",
-        "description": "<b>法术伤害+1</b>",
-        "legacyKeywords": "中立,免费,怀旧,法术伤害,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/656d1a73738859a729156d6ab444e11c1e1e5d06c6d3939acb8b60641447f764.png",
@@ -1145,19 +1060,9 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/092d2d501d319f25be2d35bdf798ea8acfdefbbbb796cfe7387835e2522b38fe.png",
-        "description": "<b>战吼：</b>造成3点伤害，随机分配到所有其他角色身上。",
-        "legacyKeywords": "中立,战吼,普通,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/beb0cf06109376083a9aac9f100bcd2adf00494ae34f38a4d6430f3433cca51f.png",
         "description": "<b>战吼：</b> 使一个随从的攻击力和生命值互换。",
         "legacyKeywords": "中立,亡灵,战吼,核心,稀有,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/db31701420bc9711b616b0c594b20e93db431d1ec58b08ceec02c42169e9e948.png",
-        "description": "<b>战吼：</b> 使一个随从的攻击力和生命值互换。",
-        "legacyKeywords": "中立,亡灵,战吼,稀有,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/9a959f4f0bbac4f05cfab0f1e60fb8449b25ec6d6220c74fc8cf8e01da3ff899.png",
@@ -1210,11 +1115,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,亡语,普通,暗月马戏团,沉默,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/89211a08fa337db512ac0d55cdc45c95a01053bac286e3d4153797d17d60971e.png",
-        "description": "<b>亡语：</b> 获得3点护甲值。",
-        "legacyKeywords": "中立,亡语,普通,核心,野兽,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/91eeab1db59b879568b0a7bf2e692dc33663c135d8d5bb66fee6641b462fc9e9.png",
         "description": "<b>亡语：</b> 获得3点护甲值。",
         "legacyKeywords": "中立,亡语,普通,狗头人,野兽,随从"
@@ -1250,11 +1150,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,核心,随从,龙"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3048fd3f6800424794e41defc9f497c7a0f3034c5793af3954c524d9137ba588.png",
-        "description": "无法成为法术或英雄技能的目标。",
-        "legacyKeywords": "中立,普通,随从,龙"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/078b645a2bca1a066efd1bbc94b81423ed6dc65925d7b0fede46ce146b1613ca.png",
         "description": "<b>突袭</b>",
         "legacyKeywords": "中立,普通,核心,突袭,随从,鱼人"
@@ -1283,11 +1178,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3aea4c0d9d1cfb7627acea659ddcc88413e2740ba2ef6776f1f84374f4e506c1.png",
         "description": "<b>战吼：</b>将两张1/1并具有<b>突袭</b>的山羊置入你的手牌。",
         "legacyKeywords": "中立,奥特兰克的决裂,战吼,普通,突袭,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/91fd432c0aefc9582450be37ae29a19cd45e304e8f4c260fa2bbac07fa7ae9c9.png",
-        "description": "<b>亡语：</b>对所有随从造成2点伤害。",
-        "legacyKeywords": "中立,亡语,普通,机械,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/314edaaade46af32acdc609b5a8c5242484fec7678fbea86dc5959ba487736de.png",
@@ -1360,11 +1250,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,探寻沉没之城,普通,法术伤害,纳迦,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/348dd9e49ba5669eb26bed027eed57630089ea56e9a42f6aec8c098aa92da509.png",
-        "description": "<b>亡语：</b>召唤一个4/4的蛛魔。",
-        "legacyKeywords": "中立,亡语,核心,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/cc5bb9846d0df6c9ef63ffd13046d7af8df8327c1bd9137e89e92ed78bb8e1f0.png",
         "description": "<b>亡语：</b>召唤一个4/4的蛛魔。",
         "legacyKeywords": "中立,亡语,稀有,纳克萨玛斯,随从"
@@ -1383,11 +1268,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/fba4a27fad78d90ba3db311cda5dbf2458a281ebb83ffb1d75f83d399cc2f82c.png",
         "description": "<b>战吼：</b> 获得等同于你的武器攻击力的攻击力。",
         "legacyKeywords": "中立,战吼,普通,核心,海盗,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ae9e42ae9b0b34ee4aee29af17b95e42f8f0b1e8bfeeffe35fd550ffc94c7e99.png",
-        "description": "<b>战吼：</b> 获得等同于你的武器攻击力的攻击力。",
-        "legacyKeywords": "中立,战吼,普通,海盗,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ee9fb52364367426bc0466da583b4fc8ebd30351ff96215fe644de179cc1fe49.png",
@@ -1490,11 +1370,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,亡语,战吼,暴风城下的集结,稀有,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/617082a9b1c32cd13fd9a31ba0fc7384aa3c0c24ec46db6ced8acc44c7ef8931.png",
-        "description": "<b>战吼：</b> 摧毁对手的武器。",
-        "legacyKeywords": "中立,免费,怀旧,战吼,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/20e28b3933b1a13abebecd78a634cc8c0ceebf2454b651d1bba39d39e7b9f896.png",
         "description": "<b>战吼：</b> 摧毁对手的武器。",
         "legacyKeywords": "中立,战吼,核心,稀有,随从"
@@ -1595,11 +1470,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,核心,随从,鱼人"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f2a858424757481a49cb845ccf81392e8b4d54cf5195517750fa13727c388821.png",
-        "description": "<b>战吼：</b>召唤一个1/1的鱼人斥候。",
-        "legacyKeywords": "中立,免费,怀旧,战吼,随从,鱼人"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c68e8476127cf6f38cbf057fde9b090e1a34e41fa50a057a2e824dc44e19dba1.png",
         "description": "在你的英雄攻击后，召唤一个1/1的海盗。",
         "legacyKeywords": "中立,大乱斗,普通,海盗,随从"
@@ -1608,11 +1478,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/1cbec4a1fc33e49ea96dacc95461c4f2ac9817253cd583c6ec878c3d645cd4a0.png",
         "description": "<b>战吼：</b> 将你牌库中的所有中立卡牌随机变形成为你的职业的卡牌。",
         "legacyKeywords": "中立,史诗,巨龙降临,战吼,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/43313dbcd0510ab798b9bc55d6be9a97c2786865e92d1b32d35c1be20e8947d3.png",
-        "description": "<b>战吼：</b>如果你控制其他任何机械，则<b>发现</b>一张机械牌。",
-        "legacyKeywords": "中立,发现,战吼,普通,机械,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c775254f13c20e91eaab77138179697be064e0141b78d37b2aa37ffa521a9a65.png",
@@ -1633,11 +1498,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e48074de0ca9addff5d6b1daf161d18dfcb711fc554d5ff1718eb9203f39abdd.png",
         "description": "<b>潜行</b>",
         "legacyKeywords": "中立,普通,核心,潜行,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/4faa01dc3c941d613f7ba4042c46ad389c3e0b408fed6f5b3ae1e2dd73a88da8.png",
-        "description": "<b>潜行</b>",
-        "legacyKeywords": "中立,普通,潜行,野兽,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f04a86b9fa340088c7ab3283b655f18b322393ce4f439d86190cf3aa481de099.png",
@@ -1765,11 +1625,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,史诗,核心,海盗,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3c758a875ba78b61c650a04281727dfe77e1e5eb77691b2b1752dc385f6e7e08.png",
-        "description": "你的其他海盗获得+1/+1。",
-        "legacyKeywords": "中立,史诗,海盗,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/6c5cd5a64d950c707626c60c72a46b89935189a1d4ce34ff76b9e4c449c2a478.png",
         "description": "<b>吸血</b> 如果这张牌在你的手牌中，每个回合使其攻击力和生命值互换。",
         "legacyKeywords": "中立,吸血,女巫森林,普通,随从"
@@ -1818,11 +1673,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e83b069af0eed72a2b8fc59379c8e2d7bfa9a2ddf904dbe48c9e963b97a0b6a9.png",
         "description": "<b>战吼：</b>你对手的下一个英雄技能的法力值消耗为（3）点。",
         "legacyKeywords": "中立,史诗,巨龙降临,战吼,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/63a10a123517da0d12d6a74991c51f961483581174caf8de6ad8f70fc208aa2e.png",
-        "description": "你的其他随从获得+1攻击力。",
-        "legacyKeywords": "中立,免费,怀旧,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/0cb088a85c9beef3c4f248c4db6584302789860954e895d3052ba2a478c0988a.png",
@@ -1920,11 +1770,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,亡灵,亡语,传说,加基森,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/36c1d601c5f5a61fb9d316ceb3757f2247996d7695cec3517f24ec4bf5dd5604.png",
-        "description": "<b>战吼：</b>如果你没有控制其他随从，则获得<b>嘲讽</b>和<b>圣盾</b>。",
-        "legacyKeywords": "中立,嘲讽,圣盾,战吼,核心,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/d88fd4ba247a1e194160fba3ad5c14641b1d4b9d9c27f96f95de3c435b6ce135.png",
         "description": "<b>战吼：</b>如果你没有控制其他随从，则获得<b>嘲讽</b>和<b>圣盾</b>。",
         "legacyKeywords": "中立,嘲讽,圣盾,战吼,狗头人,稀有,随从"
@@ -1943,11 +1788,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f85dc59589efcaeb14d778007a1173bd8782fac82d2b2eedfb6cd6b4e4f5c8ce.png",
         "description": "<b>战吼：</b>使你的其他鱼人获得+2生命值。",
         "legacyKeywords": "中立,战吼,核心,稀有,随从,鱼人"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/36c9fa90c1c6b74b963333a41a952c7aab369da4fb1ba8e9d690bc0609b1fad4.png",
-        "description": "<b>战吼：</b>使你的其他鱼人获得+2生命值。",
-        "legacyKeywords": "中立,战吼,稀有,随从,鱼人"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/757a24ff69b512f9a8b7a0672251fd72a3ebf470e6224604d7252e8732ccf429.png",
@@ -2000,11 +1840,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,剧毒,安戈洛,普通,潜行,野兽,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/440c71875e34a62f58862f6d670ef85cd245ce1a57e2c9e9f121502def7768d7.png",
-        "description": "无法攻击。",
-        "legacyKeywords": "中立,核心,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/1a5491b65a73036e6850f9f46b8fc0043b18d5b645a974dacedb2a36da18f4a8.png",
         "description": "无法攻击。",
         "legacyKeywords": "中立,安戈洛,稀有,随从"
@@ -2013,11 +1848,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e411e0b5339b723bb5b958f2119b59cb1d60884dc467f494e9ae36ffddf0535a.png",
         "description": "<b>战吼：</b>选择一个随从。<b>亡语：</b>消灭选择的随从。",
         "legacyKeywords": "中立,亡语,史诗,女巫森林,战吼,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/5bb5d432d615a18bf92ae09d0448d0bb71c28e718204da30c67402f704441763.png",
-        "description": "你的<b>战吼</b>会触发 两次。",
-        "legacyKeywords": "中立,传说,战吼,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/233d27a8be73a2f0d874fb296f608b21b17e6434a27854810d1ebe23c38d98bd.png",
@@ -2350,11 +2180,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,史诗,大乱斗,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/9d5ee6c942ba854feacd37fe5690aac5c1d8b1571033e223b0c18f0185eedc18.png",
-        "description": "<b>战吼：发现</b>一张法术牌或选择一个 神秘选项。",
-        "legacyKeywords": "中立,发现,史诗,战吼,核心,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/641658695b4c2d649d3eb49d4da26ebc1e3da7a569d97a7be45ef828aef081c7.png",
         "description": "<b>战吼：发现</b>一张法术牌或选择一个 神秘选项。",
         "legacyKeywords": "中立,发现,史诗,奥丹姆,战吼,随从"
@@ -2485,11 +2310,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/50e9077bcad009f193b518ac2c346995844f4db00312bbc66517e83a6ac6ead4.png",
-        "description": "每当该随从受到伤害，抽一张牌。",
-        "legacyKeywords": "中立,普通,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/9f73362e47a8be3812e8393f4a29155f1e7766819f26fda92c1a4b7f2739bdcd.png",
         "description": "<b>潜行</b>",
         "legacyKeywords": "中立,普通,暗影崛起,潜行,野猪人,随从"
@@ -2533,11 +2353,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c67a0fd77b29a71f77f418d56b4b684d73d11d182b2cd6b35d839b11b0a85ca4.png",
         "description": "<b>战吼：</b> 使所有其他随从的攻击力和生命值互换。",
         "legacyKeywords": "中立,史诗,恶魔,战吼,狗头人,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/6eb2f4a550f440a52ca19c2aa74294258d67aa321c8975462dc30cb5884459c7.png",
-        "description": "<b>战吼：</b>选择一个友方随从。将它的金色复制置入你的手牌。",
-        "legacyKeywords": "中立,传说,战吼,核心,纳迦,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/10d2cf23130adeeccdb36aeb81a55cd58ad4da13f4d76bd90215d31b3dcf8afa.png",
@@ -2688,11 +2503,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f2f235c68bd5017dfc2230243001059bafc08df5b8e3ed0cbec1d94dfd66d96f.png",
         "description": "<b>战吼：</b> <b>沉默</b>一个随从。",
         "legacyKeywords": "中立,战吼,普通,核心,沉默,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/050cff3821b3b7aadc3be0f191d34921a9008aed93ed09653c137a086eaf6b1a.png",
-        "description": "<b>战吼：</b> <b>沉默</b>一个随从。",
-        "legacyKeywords": "中立,战吼,普通,沉默,野兽,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/b2646cadbb622a9d4723a33332b45013b22a859c4f0da4987178f938ec4ace05.png",
@@ -2900,11 +2710,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,冠军的试炼,史诗,战吼,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/4da36c83fd0a10e555355a6e294da8d1ffedbaa8bd9f706ef0306f1d3d49e917.png",
-        "description": "<b>战吼：</b>将“黄金猿藏宝图”洗入你的牌库。",
-        "legacyKeywords": "中立,传说,战吼,核心,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/23612a018fa0863baf0f52d311bcebedeb0d436e84c35f6dbc272b9441d7fce6.png",
         "description": "<b>战吼：</b>将“黄金猿藏宝图”洗入你的牌库。",
         "legacyKeywords": "中立,传说,战吼,探险者协会,随从"
@@ -2950,11 +2755,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,奥秘,战吼,核心,稀有,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c1e38896f9047d21b2829597c718e2ab86cef78b3363a2392f9dc03349e75eec.png",
-        "description": "<b>战吼：</b>随机摧毁一个敌方<b>奥秘</b>。",
-        "legacyKeywords": "中立,奥秘,怀旧,战吼,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/0e2bcba6362824020e70d1e191e6f717bc8343491e5584d0056a7c64b25ec34f.png",
         "description": "<b>法术伤害+1</b>",
         "legacyKeywords": "中立,冠军的试炼,普通,法术伤害,随从"
@@ -2975,19 +2775,9 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,元素,奥特兰克的决裂,普通,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/55d4afdf4a91f7a628eb0f80d2c5048371f9b410266d5a7bbded94a8657b8a7a.png",
-        "description": "",
-        "legacyKeywords": "中立,免费,怀旧,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ba7c78f9f05561190ccba8478317c7772d80a0686b8d6198d714065b52360723.png",
         "description": "",
         "legacyKeywords": "中立,普通,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e621f8346e66461bdc29cea4db6493f7fa1c1c75561bee0d5a99ca403abd24c1.png",
-        "description": "<b>战吼：</b>召唤两个1/1的骷髅。",
-        "legacyKeywords": "中立,亡灵,战吼,普通,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/70219317364e80a6731b6eb2679893912bcf3214261f9bc1da843dbc3cfce585.png",
@@ -3133,11 +2923,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ff47d91401816262b91c40f69d4200ef00232a366de1c43868c69700203819db.png",
         "description": "<b>潜行</b> 每当该随从攻击，便获得一个仅限本回合可用的法力水晶。",
         "legacyKeywords": "中立,史诗,潜行,迦拉克隆的觉醒,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/eed429071070c7c0f83420583e7e4ea9c65f76baa92c53f42e370fa377a49fe0.png",
-        "description": "<b>潜行</b> 每当该随从攻击，便获得一个仅限本回合可用的法力水晶。",
-        "legacyKeywords": "中立,史诗,核心,潜行,野兽,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c87e47719a22a13153bd9170e0ad2c13cadb4715b31b71d6087b0060a45ed36c.png",
@@ -3305,11 +3090,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,冠军的试炼,史诗,嘲讽,战吼,随从,龙"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/505f2650b99ea3cf7e0f2ccab0237c1e79f59a3e19edc4cbb29410bdf61f0948.png",
-        "description": "<b>战吼：</b> 你每有一张手牌，便获得+1生命值。",
-        "legacyKeywords": "中立,战吼,稀有,随从,龙"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c086f869b1b760529768b7a46c7c3734dec5b9e426014edcbb608cf57d36a54d.png",
         "description": "<b>战吼：</b> 你每有一张手牌，便获得+1生命值。",
         "legacyKeywords": "中立,战吼,核心,稀有,随从,龙"
@@ -3343,11 +3123,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/4b238cd9cee7e0a55038f40b9a779824c60f6406137ce7a1dc5750b0f2319ce2.png",
         "description": "<b>战吼：</b><b>发现</b>两张牌。随机交给你的对手其中一张。",
         "legacyKeywords": "中立,传说,发现,大乱斗,战吼,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/271e36efc5356b14ce82e8ca4e67f70e466bd7d5a0202184239f0e26dbf5e252.png",
-        "description": "<b>嘲讽</b>",
-        "legacyKeywords": "中立,免费,嘲讽,怀旧,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/17535ab3c80103f0967ea9a47b0cae73c1c5068daea68137bcde242d578917a1.png",
@@ -3450,11 +3225,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,史诗,战吼,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/d79c845bd921fb44b126a077c5556713d29da02c1975f82e2adf79109f193aef.png",
-        "description": "<b>战吼：</b> 消灭一个攻击力大于或等于7的随从。",
-        "legacyKeywords": "中立,史诗,战吼,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e0018d743e7f824600182c3ce9dcabb629ded1cd0769e2560a51fa4ea23d6bc4.png",
         "description": "<b>休眠</b>。 <b>战吼：</b>为你的对手召唤三个1/3的典狱官。当她们死亡时，消灭所有随从并唤醒。",
         "legacyKeywords": "中立,传说,外域,恶魔,战吼,随从"
@@ -3548,11 +3318,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/83e9869ee3fc7f2717b7467f04b028f5724102edb1a27eb16bd70f8c073fc9f4.png",
         "description": "<b>亡语：</b>抽两张牌。",
         "legacyKeywords": "中立,亡语,大乱斗,普通,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/a2dfb4a34ce341ab2ab7788faf73c975b6e23ca9cef5819e0245e54cfdc72b87.png",
-        "description": "每当你施放一个法术，召唤一个1/1的紫罗兰学徒。",
-        "legacyKeywords": "中立,稀有,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e45540e86123e2c9cea43b6d5c031d9fc9107ff7381b1904d23647084d6728d2.png",
@@ -3935,11 +3700,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/8cd75bda688b1870aaf392acdb7872ab3acd5c36e6aec175ea9d0db7eb1a0077.png",
-        "description": "<b>战吼：</b>在本回合中，使一个随从获得+2攻击力。",
-        "legacyKeywords": "中立,战吼,普通,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/5c5f49788f043329306ab44f40ecbc29a9ad8826f13979846c68443e9564f289.png",
         "description": "每当<b>你</b>以该随从为目标施放一个法术时，便获得+1/+1。",
         "legacyKeywords": "中立,普通,随从,黑石山的火焰,龙"
@@ -4205,11 +3965,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,嘲讽,奥丹姆,普通,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/14fbd3a17e3232b90adabc953d233407ec3f717759d68e2c31dacb28e7b513bf.png",
-        "description": "<b>战吼：</b>选择一个随从，成为它的复制。",
-        "legacyKeywords": "中立,史诗,战吼,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f0141d830a53dbee28d3d251b8ecba92b603cde22593717fab7790dae92e459d.png",
         "description": "<b>战吼：</b>选择一个随从，成为它的复制。",
         "legacyKeywords": "中立,史诗,战吼,核心,随从"
@@ -4308,11 +4063,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c2df39268ae08cad326c62980b43075e4fb24c1b1932192a8637d376f77474c3.png",
         "description": "所有随从牌的法力值消耗增加（2）点。",
         "legacyKeywords": "中立,普通,纳斯利亚堡的悬案,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/bdc6a82dee8b8c2a35565463386901ffe5041a921bfb4ce1481f4adf94b44241.png",
-        "description": "在你的回合结束时，随机使另一个友方随从获得+3攻击力。",
-        "legacyKeywords": "中立,普通,核心,随从,龙"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/a6de3d073e96931aad323184e29911088222408135bb2ed7313057c88e20993b.png",
@@ -4418,11 +4168,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/7d48f33420d52c59788adbf2dc19980368c67486a2705354f0112b82a842e7d4.png",
         "description": "<b>法术伤害+1</b>，<b>战吼：</b>抽一张牌。",
         "legacyKeywords": "中立,战吼,核心,法术伤害,稀有,随从,龙"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3ce24171a9fbdcf05880ddf501a334eaef66ed5de82d282f87533faeccd762be.png",
-        "description": "<b>法术伤害+1</b>，<b>战吼：</b>抽一张牌。",
-        "legacyKeywords": "中立,战吼,法术伤害,稀有,随从,龙"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c6a1d7dbfc1e030c177dfb07cc473e96b0aeddfe7ff7d5c9e4aafcb72547f62b.png",
@@ -4538,11 +4283,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ccbae06c89640ef176cee7eced441e8a357126eba164fdde7ca291b11348c49e.png",
         "description": "<b>潜行</b>",
         "legacyKeywords": "中立,普通,核心,潜行,野兽,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/d0533aa5e3b240367fd71d82abb745b3939a8ec60ffd1fa2d37d6b2ffa4ad179.png",
-        "description": "<b>潜行</b>",
-        "legacyKeywords": "中立,普通,潜行,野兽,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/f64243650d60dd61f3c0b0de71d636ef7c41861444f196f58fa6dd7fff3d11ee.png",
@@ -4850,11 +4590,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,亡语,传说,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/7800b72636e74217315b2ff838ca445edf22ab0d87642a4d7533786785fde41e.png",
-        "description": "<b>亡语：</b>召唤一个5/5的贝恩·血蹄。",
-        "legacyKeywords": "中立,亡语,传说,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/cd323ab488ca34942c678032b12c8281debabbe5e354e53af8331e427aec017c.png",
         "description": "<b>潜行</b>",
         "legacyKeywords": "中立,安戈洛,普通,潜行,野兽,随从"
@@ -4868,11 +4603,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c47cc46ac4850faae1ce805b8d53b410fc6ed70d5713dc19c507e9c8e0cfd89e.png",
         "description": "每当你施放一个法术，抽一张牌。",
         "legacyKeywords": "中立,核心,稀有,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/bca7e4c3e6469b3a7fae5d663f5870c78f21a3b49638378cc41794fbea1b8f9d.png",
-        "description": "每当你施放一个法术，抽一张牌。",
-        "legacyKeywords": "中立,稀有,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/5e3099145b838f8f7f71b0becd906c1e55a4b64b7b0fc4db680b5aa963ba9aa6.png",
@@ -5165,11 +4895,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,战吼,普通,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/10fcb4453f773cc77250eb45167cfa2bbac248b3888fb7400b8e105ccd84fe68.png",
-        "description": "<b>战吼：</b>消灭所有其他攻击力小于或等于2的随从。",
-        "legacyKeywords": "中立,史诗,战吼,核心,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/44a6c4d12b22d0149f35051b7ea565db08a92d46e5a7558e2e47763a64ea119a.png",
         "description": "<b>战吼：</b>消灭所有其他攻击力小于或等于2的随从。",
         "legacyKeywords": "中立,史诗,女巫森林,战吼,随从"
@@ -5263,11 +4988,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/5985a6d6657d0be5f292cd71e156028329406d3adf7c89b40a5205d0d7e027f8.png",
         "description": "<b>战吼：</b> 随机使你的对手从手牌中施放一个法术<i>（目标随机而定）</i>。",
         "legacyKeywords": "中立,亡灵,史诗,战吼,暗影崛起,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/e985f2a7e5935b5b3ba9d51ebea6a7e223faa041fa8c511340ea13d38d5a72f7.png",
-        "description": "<b>战吼：</b>如果你的牌库里没有相同的牌，则为你的英雄恢复所有生命值。",
-        "legacyKeywords": "中立,传说,战吼,核心,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ebefab788dda38b31e6f0da19acd26b2be72cb94e2d00da83c5bab602d490777.png",
@@ -5445,11 +5165,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,普通,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/a494b7a2e4b4839bc62b5dc065bfcdeb51aac6b86b429c8ebfdab9ccc1b18c17.png",
-        "description": "你的其他随从获得+1/+1。",
-        "legacyKeywords": "中立,免费,怀旧,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3cf3b64d5b2f1cf7f5c8da4d60320596f62fcdfe278a82e3544a08275023d447.png",
         "description": "<b>嘲讽</b>",
         "legacyKeywords": "上古之神,中立,嘲讽,普通,随从"
@@ -5575,11 +5290,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,传说,元素,核心,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/29c16b2416e6ac76ee197601ba263cf3fe9dbbe790321b11b8ddd8c412a85502.png",
-        "description": "在你的回合结束时，对所有其他角色造成2点伤害。",
-        "legacyKeywords": "中立,传说,元素,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/947d4fc05396d3510701bb5cb72ee18310a6fd94a1b05092711222bb55c5664e.png",
         "description": "当本牌在你的手牌中时，每当一个随从死亡，法力值消耗便减少（1）点。",
         "legacyKeywords": "中立,史诗,狗头人,野兽,随从"
@@ -5613,11 +5323,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/1115c577353d8f972b64c9aae81068576fd351157d3085a5d005a7225c77d7dd.png",
         "description": "每当你的对手施放一个法术，召唤一个石腭穴居人壮汉。",
         "legacyKeywords": "中立,传说,地精大战侏儒,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ea1baf407edcf21cba66bdb8c4eb1f4c1aecb68655e1e7aee304764fc20d9871.png",
-        "description": "<b>风怒</b>",
-        "legacyKeywords": "中立,元素,普通,核心,随从,风怒"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/c01a73e1a11ad9a41987f6ebea380fe38352622a0ae3498752026153e98d1c8e.png",
@@ -5710,19 +5415,9 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,元素,核心,稀有,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/3ef2209ddac7f17f36cf6a6ed09f96f4dfb77860a7803cfaaa8b1638bc77a463.png",
-        "description": "每当你施放一个法术，便获得+2/+2。",
-        "legacyKeywords": "中立,元素,怀旧,稀有,随从"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/db05334d705dcfe93bfd42f447ca719a456656e73acba8662c142512994803ac.png",
         "description": "<b>战吼：</b>抽取你法力值消耗最高的法术牌，随机召唤一个法力值消耗相同的随从。",
         "legacyKeywords": "中立,元素,史诗,战吼,贫瘠之地,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/7920b1c50b4caabcdc40f2bb0b2ffc7c22d1a7b490ad5a01b1b195105363580c.png",
-        "description": "<b>嘲讽，战吼：</b> 对所有其他随从造成2点伤害。",
-        "legacyKeywords": "中立,史诗,嘲讽,战吼,核心,随从,龙"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/4094c6526fcd8e2ebc29c59b200dbad4be349105b3e7857ebc4a074c56820d38.png",
@@ -6050,11 +5745,6 @@ const zhongLiCardList = [
         "legacyKeywords": "中立,传说,加基森,随从"
     },
     {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/a69085ecaa83802bc2e10aaf0e931046ade90b5d3603fb56fda990bab822010b.png",
-        "description": "<b>嘲讽</b>",
-        "legacyKeywords": "中立,嘲讽,普通,核心,随从,龙"
-    },
-    {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/2b554d4c2daf5f1e6a4dbaa6022a3a32cf083f9deb9f16a6bcb336930ac4c538.png",
         "description": "<b>嘲讽</b>",
         "legacyKeywords": "中立,嘲讽,普通,狗头人,随从,龙"
@@ -6208,11 +5898,6 @@ const zhongLiCardList = [
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/9a139acd0189d9266b6145c8a8341c281f006ee1fffaaf347c1bcef15ee5fa3d.png",
         "description": "战场上每有一个其他随从，本牌的法力值消耗便减少（1）点。",
         "legacyKeywords": "中立,史诗,核心,随从"
-    },
-    {
-        "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/d87b13aea2226c3b0779c74e2711e77e514f46cf1e3dad517bc1f0790160f5db.png",
-        "description": "战场上每有一个其他随从，本牌的法力值消耗便减少（1）点。",
-        "legacyKeywords": "中立,史诗,随从"
     },
     {
         "imageUrl": "https://hearthstone.nosdn.127.net/hearthstone/ebdd3da2f89f4813f63d8f485712616ed502fbe2961fbd1040e8d563a04e2bb5.png",

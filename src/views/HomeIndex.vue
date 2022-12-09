@@ -4,13 +4,11 @@
       <div style="height: 44px;">
         <van-nav-bar
             title="HOME"
-            right-text="more"
-            @click-right="onClickRight"
         />
       </div>
     </van-sticky>
     <n-watermark
-        content="核心机密"
+        content="0824"
         cross
         selectable
         :font-size="16"
