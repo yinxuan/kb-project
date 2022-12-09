@@ -22,7 +22,12 @@ const routes = [
         name: 'tetris',
         component: TetrisIndex, 
     }
-   
+    ,
+    {
+        path: '/cards',
+        name: 'cards',
+        component: () => import('../views/lushi/CardIndex'),
+    }
 ];
 
 const router = createRouter({

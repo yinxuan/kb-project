@@ -1,0 +1,14 @@
+<svg xml:space="preserve" style="enable-background:new 0 0 1024 1024;" viewBox="0 0 1024 1024" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="图层_1" version="1.1">
+<style type="text/css">
+ .st0{fill:#FFCE8D;stroke:#26282B;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+ .st1{fill:#FF5F5F;stroke:#26282B;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+ .st2{fill:#FF8A8A;}
+</style>
+    <g>
+ <path d="M599.84,344.67H424.16V210.33c0-22.83,18.51-41.33,41.33-41.33h93c22.83,0,41.33,18.51,41.33,41.33V344.67z" class="st0"></path>
+        <circle r="293.96" cy="561.03" cx="512" class="st1"></circle>
+        <path d="M530.74,373.21c-17.18,0-33.82,2.32-49.63,6.64c91.91,9.25,163.66,86.83,163.66,181.18
+  s-71.75,171.93-163.66,181.18c15.81,4.32,32.45,6.64,49.63,6.64c103.73,0,187.82-84.09,187.82-187.82
+  C718.56,457.3,634.47,373.21,530.74,373.21z" class="st2"></path>
+</g>
+</svg>

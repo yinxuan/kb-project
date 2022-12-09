@@ -7,6 +7,7 @@ import {
     NSpace,
     NSkeleton,
     NImage,
+    NPagination,
 } from 'naive-ui'
 const naive = create({
     components: [
@@ -15,6 +16,7 @@ const naive = create({
         NSpace,
         NSkeleton,
         NImage,
+        NPagination,
     ]
 })
 

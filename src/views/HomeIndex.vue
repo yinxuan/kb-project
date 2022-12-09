@@ -1,5 +1,14 @@
 <template>
-  <div>
+  <div class="container">
+    <van-sticky>
+      <div style="height: 44px;">
+        <van-nav-bar
+            title="HOME"
+            right-text="more"
+            @click-right="onClickRight"
+        />
+      </div>
+    </van-sticky>
     <n-watermark
         content="核心机密"
         cross
@@ -19,6 +28,7 @@
               <n-image
                   width="342"
                   height="257"
+                  object-fit="cover"
                   lazy
                   preview-disabled
                   :src="item.img"
@@ -72,9 +82,9 @@ export default {
           url: '/tetris'
         },
         {
-          img: require('../assets/png/home/img_1.png'),
-          name: '贪吃蛇小游戏',
-          url: ''
+          img: require('../assets/png/home/woman.png'),
+          name: '炉石卡牌库',
+          url: '/cards'
         },
       ]
     }
@@ -89,7 +99,7 @@ export default {
         });
         return console.log('Coming soon')
       }
-      this.$router.push('/tetris');
+      this.$router.push(path);
     }
   },
   mounted() {
@@ -114,70 +124,74 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.home-index {
-  margin: 0 auto;
-  padding: 72px 24px 30px;
+.container {
   background: rgb(244, 244, 245);
-  .cell {
-    .li-div {
-      display: block;
-      text-decoration: none;
-      overflow: hidden;
-      background: #fff;
-      width: 100%;
-      padding-bottom: 60px;
-      box-sizing: border-box;
-      margin-bottom: 30px;
-      border-radius: 8px;
-      position: relative;
-      transition: all .3s;
-      .photo-img {
-        width: 100%;
-        padding: 0;
-        margin: 0;
+  .home-index {
+    padding: 44px 0 30px;
+    .cell {
+      margin: 0 auto;
+      width: 342px;
+      .li-div {
         display: block;
-        .img{
-          //animation: jumpBoxHandler  2s infinite;
-          animation: rotation 2s linear infinite;
-        }
-        @keyframes rotation {
-          0% {
-            -webkit-transform: rotate(0deg);
-          }
-          50% {
-            -webkit-transform: rotate(20deg);
-          }
-          100% {
-            -webkit-transform: rotate(-20deg);
-          }
-        }
-        //@keyframes jumpBoxHandler {
-        //  0% {
-        //    transform: translate(100%);/*开始位置*/
-        //
-        //  }
-        //  50% {
-        //    transform: translateX(-50%) ; /* 可配置跳动方向 translate(15px, 15px)*/
-        //  }
-        //  100% {
-        //    transform: translateX(100%);/*结束位置*/
-        //  }
-        //}
-      }
-      .msg {
-        padding: 24px 20px 0 20px;
-        font-size: 18px;
-        font-weight: 700;
+        text-decoration: none;
         overflow: hidden;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        display: -webkit-box;
-      }
-      p {
-        padding: 0;
-        margin: 0;
+        background: #fff;
+        width: 100%;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        position: relative;
+        transition: all .3s;
+        .photo-img {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          display: block;
+          .img{
+            //animation: jumpBoxHandler  2s infinite;
+            animation: rotation 2s linear infinite;
+          }
+          @keyframes rotation {
+            0% {
+              -webkit-transform: rotate(0deg);
+            }
+            50% {
+              -webkit-transform: rotate(20deg);
+            }
+            100% {
+              -webkit-transform: rotate(-20deg);
+            }
+          }
+          //@keyframes jumpBoxHandler {
+          //  0% {
+          //    transform: translate(100%);/*开始位置*/
+          //
+          //  }
+          //  50% {
+          //    transform: translateX(-50%) ; /* 可配置跳动方向 translate(15px, 15px)*/
+          //  }
+          //  100% {
+          //    transform: translateX(100%);/*结束位置*/
+          //  }
+          //}
+        }
+        .msg {
+          padding: 24px 20px 0 20px;
+          font-size: 18px;
+          font-weight: 700;
+          overflow: hidden;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+        }
+        p {
+          padding: 0;
+          margin: 0;
+        }
       }
     }
   }
+
 }
 </style>

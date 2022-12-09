@@ -15,37 +15,54 @@
             </div>
           </div>
           <div>
-            <p>得分</p>
-            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       score                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+            <div class="mb10">得分</div>
+            <div class="data mb10">{{score}}</div>
           </div>
           <div>
-            <p>等级</p>
-            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       level                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+            <div class="mb10">等级</div>
+            <div class="data mb10">{{level}}</div>
           </div>
           <div>
-            <p>消除</p>
-            <p class="data">{{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       times                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }}</p>
+            <div class="mb10">消除</div>
+            <div class="data mb10">
+              {{times}}
+            </div>
           </div>
           <div class="play" @click="stopGame()">
             {{ stop ? '开始' : '暂停'}}
+          </div>
+          <div class="gift">
+            <img
+                v-if="isGift"
+                class="gift-top"
+                :src='giftImg'
+                width='40'
+                height='40'
+            />
+            <img
+                class="gift-bottom"
+                src='../../assets/svg/eluosi/hezi.svg'
+                width='100'
+                height='100'
+            />
           </div>
         </div>
       </div>
       <div class="control">
         <div class="change" @click="change1()">
-          <img src='../../assets/svg/direction.svg' width='100' height='100' />
+          <img src='../../assets/svg/eluosi/shoubing.svg' width='150' height='150' />
         </div>
         <div>
           <div class="zy">
             <div class="left" @click="moveLeft()">
-              <img src='../../assets/svg/left-c.svg' width='60' height='60' />
+              <img src='../../assets/svg/eluosi/top.svg' width='60' height='60' style="transform: rotate(-90deg)" />
             </div>
             <div class="right" @click="moveRight()">
-              <img src='../../assets/svg/right-c.svg' width='60' height='60' />
+              <img src='../../assets/svg/eluosi/top.svg' width='60' height='60' style="transform: rotate(90deg)"/>
             </div>
           </div>
           <div class="down" @click="moveDown()">
-            <img src='../../assets/svg/down-c.svg' width='60' height='60' />
+            <img src='../../assets/svg/eluosi/top.svg' width='60' height='60'  style="transform: rotate(180deg)"/>
           </div>
         </div>
       </div>
@@ -75,7 +92,20 @@ export default {
       times: 0,//消除次数
       stop: true,//是否停止
       removeRow: [],//消除的行记录
-
+      giftImg: '',
+      isGift: false,
+      giftList: [
+        require('../../assets/svg/eluosi/gift_1.svg'),
+        require('../../assets/svg/eluosi/gift_2.svg'),
+        require('../../assets/svg/eluosi/gift_3.svg'),
+        require('../../assets/svg/eluosi/gift_4.svg'),
+        require('../../assets/svg/eluosi/gift_5.svg'),
+        require('../../assets/svg/eluosi/gift_6.svg'),
+        require('../../assets/svg/eluosi/gift_7.svg'),
+        require('../../assets/svg/eluosi/gift_8.svg'),
+        require('../../assets/svg/eluosi/gift_9.svg'),
+        require('../../assets/svg/eluosi/gift_10.svg'),
+      ]
     }
   },
   methods: {
@@ -270,6 +300,12 @@ export default {
     //下落时旋转
     //旋转b:当前方块、xz:当前选转角度
     change1() {
+      this.isGift = false
+      this.giftImg = ''
+      setTimeout(() => {
+        this.isGift = true
+        this.giftImg = this.giftList[Math.floor(Math.random() * this.giftList.length)]
+      }, 300)
       const b = JSON.parse(JSON.stringify(this.nowBlock));
       //记录第一块位置
       const x = b.site[0];
@@ -423,9 +459,37 @@ export default {
         //生成下一个
         this.init();
       }
-
-    }
-
+    },
+    // 监听键盘
+    keyDown() {
+      document.onkeydown =  (e) => {
+        //事件对象兼容
+        let e1 = e || event || window.event || arguments.callee.caller.arguments[0]
+        const res = e1.keyCode
+        if (this.stop && res !== 13) {
+          return false
+        }
+        switch (res) {
+          case 13:
+            this.stopGame()
+            break
+          case 32:
+            this.change1()
+            break
+          case 37:
+            this.moveLeft()
+            break
+          case 39:
+            this.moveRight()
+            break
+          case 40:
+            this.moveDown()
+            break
+          default:
+            break
+        }
+      }
+    },
 
   },
   mounted() {
@@ -433,12 +497,16 @@ export default {
     this.getBlock(0);
     this.getNext();
     this.init();
+    this.keyDown()
   }
 }
 </script>
 
 <style lang="less" scoped>
 .tetris {
+  background: rgb(68, 118 , 55);
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -453,6 +521,7 @@ export default {
     }
     .game-div {
       display: flex;
+      position: relative;
 
       .game-min {
 
@@ -473,6 +542,7 @@ export default {
         padding-left: 12px;
 
         .ass {
+          margin-bottom: 20px;
           .row {
             display: flex;
             padding-top: 1px;
@@ -500,6 +570,37 @@ export default {
           line-height: 32px;
           border-radius: 8px;
           color: white;
+        }
+
+        .mb10 {
+          margin-bottom: 10px;
+        }
+
+        .gift {
+          //height: 133px;
+          //position: relative;
+          &-top {
+            position: absolute;
+            bottom: 50px;
+            right: 20px;
+            animation:fadenum 2s linear;
+          }
+          @keyframes fadenum{
+            0%{
+              bottom: 25px;
+              transform:translateY(20px);
+            }
+            50%{transform:translateY(-20px);}
+            100%{
+              //transform:translateY(-40px);
+              bottom: 50px;
+            }
+          }
+          &-bottom {
+            position: absolute;
+            bottom: -23px;
+            right: -10px
+          }
         }
       }
     }
