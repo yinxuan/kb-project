@@ -69,8 +69,17 @@
 
 <script>
 import { apiQueryCards } from "@/apis/lushi";
-import deLuYiCardList from '@/views/lushi/card/deluyi'
 import siWangQiShiCardList from "@/views/lushi/card/siwangqishi";
+import deMonHunTerCardList from "@/views/lushi/card/demonhunter";
+import deLuYiCardList from '@/views/lushi/card/deluyi'
+import hunterCardList from "@/views/lushi/card/hunter";
+import faShiCardList from "@/views/lushi/card/fashi";
+import qiShiCardList from "@/views/lushi/card/qishi";
+import muShiCardList from "@/views/lushi/card/mushi";
+import daoZeiCardList from "@/views/lushi/card/daozei";
+import shaManCardList from "@/views/lushi/card/shaman";
+import shuShiCardList from "@/views/lushi/card/shushi";
+import zhanShiCardList from "@/views/lushi/card/zhanshi";
 import zhongLiCardList from "@/views/lushi/card/zhongli";
 export default {
   data() {
@@ -83,7 +92,16 @@ export default {
       show: false,
       columns: [
         { text: '死亡骑士', value: '死亡骑士' },
+        { text: '恶魔猎手', value: '恶魔猎手' },
         { text: '德鲁伊', value: '德鲁伊' },
+        { text: '猎人', value: '猎人' },
+        { text: '法师', value: '法师' },
+        { text: '圣骑士', value: '圣骑士' },
+        { text: '牧师', value: '牧师' },
+        { text: '潜行者', value: '潜行者' },
+        { text: '萨满', value: '萨满' },
+        { text: '术士', value: '术士' },
+        { text: '战士', value: '战士' },
         { text: '中立', value: '中立' },
       ],
     }
@@ -115,9 +133,45 @@ export default {
           this.total = siWangQiShiCardList.length
           this.list = siWangQiShiCardList.slice(pageNum, pageSize)
           break
+        case '恶魔猎手':
+          this.total = deMonHunTerCardList.length
+          this.list = deMonHunTerCardList.slice(pageNum, pageSize)
+          break
         case '德鲁伊':
           this.total = deLuYiCardList.length
           this.list = deLuYiCardList.slice(pageNum, pageSize)
+          break
+        case '猎人':
+          this.total = hunterCardList.length
+          this.list = hunterCardList.slice(pageNum, pageSize)
+          break
+        case '法师':
+          this.total = faShiCardList.length
+          this.list = faShiCardList.slice(pageNum, pageSize)
+          break
+        case '圣骑士':
+          this.total = qiShiCardList.length
+          this.list = qiShiCardList.slice(pageNum, pageSize)
+          break
+        case '牧师':
+          this.total = muShiCardList.length
+          this.list = muShiCardList.slice(pageNum, pageSize)
+          break
+        case '潜行者':
+          this.total = daoZeiCardList.length
+          this.list = daoZeiCardList.slice(pageNum, pageSize)
+          break
+        case '萨满':
+          this.total = shaManCardList.length
+          this.list = shaManCardList.slice(pageNum, pageSize)
+          break
+        case '术士':
+          this.total = shuShiCardList.length
+          this.list = shuShiCardList.slice(pageNum, pageSize)
+          break
+        case '战士':
+          this.total = zhanShiCardList.length
+          this.list = zhanShiCardList.slice(pageNum, pageSize)
           break
         case '中立':
           this.total = zhongLiCardList.length
